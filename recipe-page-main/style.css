@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    color:  hsl(24, 5%, 35%); 
+}
+p{
+    font-size: 16px;
+}
+
+img{
+    border-radius: 1rem;
+}
+
+main.wrapper{
+    margin: 0 auto; 
+    width: 40vw;
+    background-color: white; 
+    border-radius: 1rem; 
+    padding: 2rem; 
+}
+h4{
+    color:hsl(332, 51%, 32%);
+}
+h1, h2{
+    font-family:  "Young Serif", serif;
+    font-weight: 400;
+}
+
+span{
+    font-weight: 600;
+}
+
+li:not(:last-child){
+    margin-bottom: 0.5rem; 
+}
+ul.item-list-description li{
+    padding-inline-start: 0.5rem; 
+}
+
+ul.item-list-ingredient li, ol li{
+    position: relative;
+    right: 1.5rem; 
+    padding-inline-start: 1.3rem;
+}
+section.description{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1rem; 
+    padding: 0.5rem; 
+}
+
+.description h4{
+    padding-left: 1.5rem;
+}
+
+.color-dark-rasberry{
+    color: hsl(14, 45%, 36%); 
+}
+
+.color-grey-line{
+    display: inline-block; 
+    height: 1px;
+    width: 100%;
+    background-color: hsl(30, 18%, 87%);
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+tr td:nth-child(2){
+    color: hsl(14, 45%, 36%); 
+}
+
